@@ -2,36 +2,36 @@
   font-family: "DancingScript";
   src: url("DancingScript.ttf");
 }
-body
-{
-  margin: 10px;
-  font-family: "DancingScript" ;
-  background-color: #02010a
-}
-@media MAX-width(800px) {
-  #navegacion nav
+@media (min-width:720px) {
+  a
   {
     text-align: right;
-    display: flex;
   }
 
 }
+body
+{
+  margin: 10px;
+  font-family: "DancingScript";
+  background-color: #02010a;
+}
+
 header
 {
   background-color: #5b7989;
   border-radius: 10px 10px 0 0;
   padding: 5px;
-  height: 100px;
+  color: white;
 }
 #cabezera h1
 {
   float: left;
-  color: white;
   text-shadow: 2px 2px 2px #02010a;
   width: 100%
 }
 #navegacion a
 {
   text-decoration: none;
-  display: none;
+  color: white;
+text-align: center;
 }
