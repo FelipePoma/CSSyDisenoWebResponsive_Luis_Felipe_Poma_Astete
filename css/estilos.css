@@ -2,16 +2,10 @@
   font-family: "DancingScript";
   src: url("DancingScript.ttf");
 }
-@media (min-width:720px) {
-  a
-  {
-    text-align: right;
-  }
 
-}
+
 body
 {
-  margin: 10px;
   font-family: "DancingScript";
   background-color: #02010a;
 }
@@ -25,13 +19,12 @@ header
 }
 #cabezera h1
 {
-  float: left;
+  text-align: left;
   text-shadow: 2px 2px 2px #02010a;
-  width: 100%
-}
+
+ }
 #navegacion a
 {
   text-decoration: none;
   color: white;
-text-align: center;
 }
