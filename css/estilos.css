@@ -2,34 +2,45 @@
   font-family: "DancingScript";
   src: url("DancingScript.ttf");
 }
-
-
 body
 {
   font-family: "DancingScript";
   background-color: #02010a;
-  margin: 5px;
-  width:100%;
-}
+margin: 0;
+  width: 100%
 
+}
 header
 {
   background-color: #5b7989;
   border-radius: 10px 10px 0 0;
   padding: 5px;
   color: white;
+}
+nav
+{
+  text-align: right;
+  word-spacing: 10px
 
 }
 #cabezera h1
 {
   text-align: left;
   text-shadow: 2px 2px 2px #02010a;
-
  }
+
 #navegacion a
 {
   text-decoration: none;
   color: white;
+
+}
+@media (max-width:610px) {
+  #navegacion
+  {
+    text-align: center;
+    display: block
+  }
 }
 #imagen-principal
 {
@@ -46,7 +57,6 @@ header
   background-color: #d5c75f;
   border: 1px solid;
   display:flex;
-
 }
 
 #imagen-secundaria a
@@ -59,7 +69,6 @@ header
     padding: 5%;
     display: grid;
     text-align: center;
-
   }
   #imagen-secundaria .modulo1
   {
@@ -69,7 +78,6 @@ header
   }
   #imagen-secundaria .modulo2
   {
-
     margin: 5%;
     order: 2;
 
@@ -80,7 +88,6 @@ header
 border: 2px solid black;
 box-shadow: 2px 3px #82c3a6;
 width: 90%
-
 }
 #imagen-secundaria .imagen2
 {
@@ -96,4 +103,42 @@ width: 90%
 #imagen-secundaria .imagen2:hover
 {
   transform: translate3d(20px, -5px, 0)
+}
+footer
+{
+  background-color: #C6d5c5;
+width: 100%
+}
+#divisor
+{
+  display: flex;
+  padding: 2.5%
+}
+.Contacto
+{
+  width: 25%
+}
+.Terminos
+{
+  width: 25%
+}
+.Social
+{
+  width: 25%
+}
+.Derechos
+{
+  width:25%
+}
+@media (max-width:610px) {
+  #divisor
+  {
+    text-align: center;
+    display: block;
+  }
+  article
+  {
+    margin: 0 auto
+  }
+
 }
