@@ -35,19 +35,6 @@ header
 }
 #imagen-secundaria
 {
-  background-color:  #d5c75f ;
-}
-#imagen-secundaria .imagen1
-{
-  float: left;
-  display:flex;
-  order:1;
+  background-color: #d5c75f;
   border: 1px solid
-}
-#imagen-secundaria .imagen2
-{
-float: right;
-  display: flex;
-  order:2;
-  border:1px solid
 }
