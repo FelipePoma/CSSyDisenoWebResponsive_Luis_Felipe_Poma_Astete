@@ -8,6 +8,8 @@ body
 {
   font-family: "DancingScript";
   background-color: #02010a;
+  margin: 5px;
+  width:100%;
 }
 
 header
@@ -16,6 +18,7 @@ header
   border-radius: 10px 10px 0 0;
   padding: 5px;
   color: white;
+
 }
 #cabezera h1
 {
@@ -31,10 +34,66 @@ header
 #imagen-principal
 {
   text-align: center;
-  background-color: #82c3a6
+  background-color: #82c3a6;
+
+}
+#imagen-principal img
+{
+  width: 46%;
 }
 #imagen-secundaria
 {
   background-color: #d5c75f;
-  border: 1px solid
+  border: 1px solid;
+  display:flex;
+
+}
+
+#imagen-secundaria a
+{
+   margin: 0 auto;
+}
+@media (max-width:610px) {
+  #imagen-secundaria
+  {
+    padding: 5%;
+    display: grid;
+    text-align: center;
+
+  }
+  #imagen-secundaria .modulo1
+  {
+
+    margin:5%;
+    order: 1
+  }
+  #imagen-secundaria .modulo2
+  {
+
+    margin: 5%;
+    order: 2;
+
+  }
+}
+#imagen-secundaria .imagen1
+{
+border: 2px solid black;
+box-shadow: 2px 3px #82c3a6;
+width: 90%
+
+}
+#imagen-secundaria .imagen2
+{
+border:2px solid black;
+box-shadow:  3px 4px #82c3a6;
+width: 90%
+
+}
+#imagen-secundaria .imagen1:hover
+{
+  transform: rotate(15deg);
+}
+#imagen-secundaria .imagen2:hover
+{
+  transform: translate3d(20px, -5px, 0)
 }
