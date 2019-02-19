@@ -28,8 +28,12 @@ nav
 
 #navegacion a
 {
-  text-decoration: none;
   color: white;
+}
+#navegacion a:hover,#navegacion a:visited
+
+{
+  text-decoration: none;
 
 }
 @media (max-width:610px) {
@@ -116,11 +120,15 @@ width: 100%
 #divisor
 {
   display: flex;
-  padding: 2.5%
+  padding: 2%
 }
 .Contacto
 {
   width: 25%
+}
+.Contacto a
+{
+  text-decoration: none;
 }
 .Terminos
 {
@@ -134,6 +142,7 @@ width: 100%
 {
   width:25%
 }
+
 @media (max-width:900px) {
   #divisor
   {
@@ -160,4 +169,8 @@ width: 100%
     margin-left: 20%;
     margin-right: 10%;
   }
+}
+#divisor article
+{
+  text-align: center;
 }
