@@ -6,21 +6,18 @@ body
 {
   font-family: "DancingScript";
   background-color: #02010a;
-margin: 0;
-  width: 100%
-
 }
 header
 {
   background-color: #5b7989;
   border-radius: 10px 10px 0 0;
-  padding: 5px;
+  padding: 2.5%;
   color: white;
 }
 nav
 {
   text-align: right;
-  word-spacing: 10px
+  word-spacing: 5%;
 
 }
 #cabezera h1
@@ -38,7 +35,7 @@ nav
 @media (max-width:610px) {
   #navegacion
   {
-    text-align: center;
+
     display: block
   }
 }
@@ -63,12 +60,12 @@ nav
 {
    margin: 0 auto;
 }
-@media (max-width:610px) {
+@media (max-width:900px) {
   #imagen-secundaria
   {
     padding: 5%;
     display: grid;
-    text-align: center;
+
   }
   #imagen-secundaria .modulo1
   {
@@ -82,6 +79,13 @@ nav
     order: 2;
 
   }
+}
+@media (min-width:900px) {
+
+}
+#imagenes img
+{
+  box-shadow: 2px 2px #02010a
 }
 #imagen-secundaria .imagen1
 {
@@ -130,15 +134,30 @@ width: 100%
 {
   width:25%
 }
-@media (max-width:610px) {
+@media (max-width:900px) {
   #divisor
   {
-    text-align: center;
-    display: block;
+    display: inline-block;
+
+
   }
-  article
+  footer
   {
-    margin: 0 auto
+    text-align: center;
   }
 
+   #content
+  {
+    width: 100%;
+    margin: 0
+
+  }
+}
+@media (min-width:901px) {
+  #content
+  {
+    width: 900px;
+    margin-left: 20%;
+    margin-right: 10%;
+  }
 }
