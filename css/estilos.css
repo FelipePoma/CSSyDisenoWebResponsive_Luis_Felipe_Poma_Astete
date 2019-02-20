@@ -69,19 +69,18 @@ nav
   {
     padding: 5%;
     display: grid;
-
   }
   #imagen-secundaria .modulo1
   {
-
-    margin:5%;
-    order: 1
+   margin-left: 14%;
+   margin-top: 5%;
+   order: 1
   }
   #imagen-secundaria .modulo2
   {
-    margin: 5%;
+    margin-left: 14% ;
+    margin-top: 5%;
     order: 2;
-
   }
 }
 @media (min-width:900px) {
@@ -120,11 +119,15 @@ width: 100%
 #divisor
 {
   display: flex;
-  padding: 2%
+      margin: 0 auto;
+      padding: 2%
+
+
 }
 .Contacto
 {
-  width: 25%
+  width: 25%;
+  margin: 0 auto;
 }
 .Contacto a
 {
@@ -132,27 +135,32 @@ width: 100%
 }
 .Terminos
 {
-  width: 25%
+  width: 25%;
+  margin: 0 auto;
 }
 .Social
 {
-  width: 25%
+  width: 25%;
+  margin: 0 auto;
 }
 .Derechos
 {
-  width:25%
+  width:25%;
+  margin: 0 auto;
 }
 
 @media (max-width:900px) {
   #divisor
   {
-    display: inline-block;
-
-
+    display: grid;
+  }
+  #navegacion
+  {
+    text-align: center;
   }
   footer
   {
-    text-align: center;
+    text-align: center ;
   }
 
    #content
@@ -162,15 +170,11 @@ width: 100%
 
   }
 }
-@media (min-width:901px) {
+@media (min-width:900px) {
   #content
   {
     width: 900px;
     margin-left: 20%;
     margin-right: 10%;
   }
-}
-#divisor article
-{
-  text-align: center;
 }
