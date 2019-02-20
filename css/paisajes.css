@@ -7,7 +7,31 @@
   {
     width: 100%
   }
-
+  #navegacion
+  {
+    text-align:center;
+  }
+  #galeria
+  {
+    margin: 0 auto;
+  }
+  #galeria .fila1,.fila2
+  {
+    padding-left: 20%
+  }
+  #galeria .fila1 img
+  {
+     width:70%;
+  }
+  #galeria .fila2 img
+  {
+     width:70%;
+  }
+  #Informacion
+  {
+    display: grid;
+    text-align: center;
+  }
 }
 @media (min-width:900px) {
   #content
@@ -40,13 +64,16 @@
     height: 10%;
     padding: 5%
   }
+  #Informacion
+  {
+    display: flex;
+  }
 
 }
 body
 {
   font-family: "DancingScript";
   background-color: #02010a;
-  
 }
 #cabezera
 {
@@ -60,10 +87,14 @@ body
   text-shadow: 2px 2px #02010a;
   text-align: left;
 }
+nav
+{
+  text-align: right;
+}
 #navegacion a,#navegacion
 {
   color: white;
-  text-align: right;
+
   word-spacing: 10px;
 }
 #galeria
@@ -91,4 +122,8 @@ footer
   background-color:  #C6d5c5;
   border-radius: 0 0 10px 10px;
   padding: 2.5%;
+}
+#Informacion section
+{
+  padding: 2%
 }

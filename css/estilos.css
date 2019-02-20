@@ -98,30 +98,7 @@ width: 100%
 
 
 }
-.Contacto
-{
-  width: 25%;
-  margin: 0 auto;
-}
-.Contacto a
-{
-  text-decoration: none;
-}
-.Terminos
-{
-  width: 25%;
-  margin: 0 auto;
-}
-.Social
-{
-  width: 25%;
-  margin: 0 auto;
-}
-.Derechos
-{
-  width:25%;
-  margin: 0 auto;
-}
+
 
 @media (max-width:900px) {
   #navegacion
