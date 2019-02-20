@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "DancingScript";
+  src: url("DancingScript.ttf");
+}
+@media (max-width:900px) {
+
+}
+@media (min-width:900px) {
+
+}
+body
+{
+  font-family: "DancingScript";
+  background-color: #02010a;
+  color: white;
+}
+#content
+{
+  margin-left: 20%;
+  margin-right: 10%;
+  width: 900px;
+}
+#cabezera
+{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0 ;
+  padding: 2.5%;
+  color: white;
+}
+#cabezera h1
+{
+  text-shadow: 2px 2px #02010a;
+  text-align: left;
+}
+#navegacion a,#navegacion
+{
+  color: white;
+  text-align: right;
+}
+#navegacion .link2
+{
+  text-decoration: none;
+}

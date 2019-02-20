@@ -30,82 +30,56 @@ nav
 {
   color: white;
 }
-#navegacion a:hover,#navegacion a:visited
+#navegacion a:first-child
 
 {
   text-decoration: none;
 
 }
-@media (max-width:610px) {
-  #navegacion
-  {
-
-    display: block
-  }
-}
 #imagen-principal
 {
   text-align: center;
   background-color: #82c3a6;
+  padding: 2.5%
 
 }
 #imagen-principal img
 {
-  width: 46%;
+  width: 80%;
 }
 #imagen-secundaria
 {
   background-color: #d5c75f;
   border: 1px solid;
   display:flex;
+  padding: 2.5%
 }
 
 #imagen-secundaria a
 {
    margin: 0 auto;
 }
-@media (max-width:900px) {
-  #imagen-secundaria
-  {
-    padding: 5%;
-    display: grid;
-  }
-  #imagen-secundaria .modulo1
-  {
-   margin-left: 14%;
-   margin-top: 5%;
-   order: 1
-  }
-  #imagen-secundaria .modulo2
-  {
-    margin-left: 14% ;
-    margin-top: 5%;
-    order: 2;
-  }
-}
-@media (min-width:900px) {
-
 }
 #imagenes img
 {
-  box-shadow: 2px 2px #02010a
+    box-shadow: 2px 2px #02010a
 }
 #imagen-secundaria .imagen1
 {
-border: 2px solid black;
-box-shadow: 2px 3px #82c3a6;
-width: 90%
+    border: 2px solid black;
+    box-shadow: 2px 3px #82c3a6;
+    width: 90%
 }
 #imagen-secundaria .imagen2
 {
-border:2px solid black;
-box-shadow:  3px 4px #82c3a6;
-width: 90%
+    border:2px solid black;
+    box-shadow:  3px 4px #82c3a6;
+    width: 90%
 
 }
 #imagen-secundaria .imagen1:hover
 {
-  transform: rotate(15deg);
+    transform: rotate(15deg);
 }
 #imagen-secundaria .imagen2:hover
 {
@@ -150,6 +124,11 @@ width: 100%
 }
 
 @media (max-width:900px) {
+  #navegacion
+  {
+
+    display: block
+  }
   #divisor
   {
     display: grid;
@@ -169,12 +148,29 @@ width: 100%
     margin: 0
 
   }
+  #imagen-secundaria
+  {
+    padding: 5%;
+    display: grid;
+  }
+  #imagen-secundaria .modulo1
+  {
+   margin-left: 14%;
+   margin-top: 5%;
+   order: 1
+  }
+  #imagen-secundaria .modulo2
+  {
+    margin-left: 14% ;
+    margin-top: 5%;
+    order: 2;
+  }
 }
 @media (min-width:900px) {
-  #content
-  {
+#content
+{
     width: 900px;
     margin-left: 20%;
     margin-right: 10%;
-  }
+}
 }
