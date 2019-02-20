@@ -3,6 +3,10 @@
   src: url("DancingScript.ttf");
 }
 @media (max-width:900px) {
+  #content
+  {
+    width: 100%
+  }
 
 }
 @media (min-width:900px) {
@@ -11,11 +15,6 @@
     margin-left: 20%;
     margin-right: 10%;
     width: 900px;
-  }
-  #galeria
-  {
-    background-color: #d5c75f;
-
   }
   .fila1
   {
@@ -47,7 +46,7 @@ body
 {
   font-family: "DancingScript";
   background-color: #02010a;
-  color: white;
+  
 }
 #cabezera
 {
@@ -67,6 +66,10 @@ body
   text-align: right;
   word-spacing: 10px;
 }
+#galeria
+{
+  background-color: #d5c75f;
+}
 #navegacion .link2
 {
   text-decoration: none;
@@ -75,7 +78,17 @@ body
 {
   filter: blur(10px);
 }
+#galeria .paisaje3
+{
+  filter: sepia(90%);
+}
 #galeria .paisaje2,.paisaje4,.paisaje6
 {
   filter: grayscale(100%);
+}
+footer
+{
+  background-color:  #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  padding: 2.5%;
 }
