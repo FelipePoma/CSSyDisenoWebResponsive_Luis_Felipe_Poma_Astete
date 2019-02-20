@@ -6,6 +6,41 @@
 
 }
 @media (min-width:900px) {
+  #content
+  {
+    margin-left: 20%;
+    margin-right: 10%;
+    width: 900px;
+  }
+  #galeria
+  {
+    background-color: #d5c75f;
+
+  }
+  .fila1
+  {
+    display: flex;
+    margin-left: 5%;
+
+  }
+  #galeria .fila1 img
+  {
+    width: 20%;
+    height: 10%;
+    padding: 5%
+
+  }
+  .fila2
+  {
+    display: flex;
+    margin-left: 5%;
+  }
+  #galeria .fila2 img
+  {
+    width: 20%;
+    height: 10%;
+    padding: 5%
+  }
 
 }
 body
@@ -13,12 +48,6 @@ body
   font-family: "DancingScript";
   background-color: #02010a;
   color: white;
-}
-#content
-{
-  margin-left: 20%;
-  margin-right: 10%;
-  width: 900px;
 }
 #cabezera
 {
@@ -36,8 +65,17 @@ body
 {
   color: white;
   text-align: right;
+  word-spacing: 10px;
 }
 #navegacion .link2
 {
   text-decoration: none;
+}
+#galeria .paisaje1
+{
+  filter: blur(10px);
+}
+#galeria .paisaje2,.paisaje4,.paisaje6
+{
+  filter: grayscale(100%);
 }
