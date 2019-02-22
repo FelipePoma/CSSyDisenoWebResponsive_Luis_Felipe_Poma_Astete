@@ -2,6 +2,21 @@
   font-family: "DancingScript";
   src: url("DancingScript.ttf");
 }
+@keyframes content {
+  0%
+  {
+    margin-top: 150%;
+  }
+  60%
+  {
+    margin-top: -5%;
+  }
+  100%
+  {
+    margin-top: 0%
+  }
+
+}
 @media (max-width:900px) {
   #content
   {
@@ -85,6 +100,10 @@ body
   font-family: "DancingScript";
   background-color: #02010a;
 }
+#content
+{
+  animation: content 2s;
+}
 #cabezera
 {
   background-color: #5b7989;
@@ -95,7 +114,6 @@ body
 #cabezera h1
 {
   text-shadow: 2px 2px #02010a;
-  text-align: left;
 }
 nav
 {
