@@ -98,7 +98,10 @@ width: 100%
 
 
 }
-
+#divisor article
+{
+  padding: 2%
+}
 
 @media (max-width:900px) {
   #navegacion
@@ -141,6 +144,10 @@ width: 100%
     margin-left: 14% ;
     margin-top: 5%;
     order: 2;
+  }
+  #cabezera h1
+  {
+    text-align: center;
   }
 }
 @media (min-width:900px) {

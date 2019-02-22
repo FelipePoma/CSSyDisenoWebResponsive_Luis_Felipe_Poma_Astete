@@ -5,7 +5,12 @@
 @media (max-width:900px) {
   #content
   {
-    width: 100%
+    width: 100%;
+    margin: 0
+  }
+  #cabezera h1
+  {
+    text-align: center;
   }
   #navegacion
   {
@@ -32,6 +37,7 @@
     display: grid;
     text-align: center;
   }
+
 }
 @media (min-width:900px) {
   #content
@@ -39,6 +45,10 @@
     margin-left: 20%;
     margin-right: 10%;
     width: 900px;
+  }
+  #cabezera h1
+  {
+    text-align: left;
   }
   .fila1
   {
