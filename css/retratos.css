@@ -16,7 +16,7 @@
     margin-top: 0%
   }
 }
-@media (max-width:900px) {
+@media (max-width:1025px) {
   #content
   {
     width: 100%
@@ -51,7 +51,7 @@
     text-align: center;
   }
 }
-@media (min-width:900px) {
+@media (min-width:1025px) {
   #content
   {
     margin-left: 20%;
@@ -134,14 +134,23 @@ nav
 #galeria  .retrato1
 {
   filter: blur(10px);
+  filter: -moz-blur(10%);
+  filter: -webkit-blur(10px);
+  filter: -o-blur(10px);
 }
 #galeria .retrato3
 {
   filter: sepia(90%);
+  filter: -moz-sepia(90%);
+  filter: -webkit-sepia(90%);
+  filter: -o-sepia(90%);
 }
 #galeria .retrato2,.retrato4,.retrato6
 {
   filter: grayscale(100%);
+  filter: -moz-grayscale(100%);
+  filter: -webkit-grayscale(100%);
+  filter: -o-grayscale(100%);
 }
 footer
 {

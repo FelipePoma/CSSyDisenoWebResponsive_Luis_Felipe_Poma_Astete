@@ -62,6 +62,7 @@ nav
 #imagen-secundaria a
 {
    margin: 0 auto;
+   width: 80%
 }
 }
 #imagenes img
@@ -119,7 +120,7 @@ width: 100%
   }
 
 }
-@media (max-width:900px) {
+@media (max-width:1025px) {
   #navegacion
   {
 
@@ -166,7 +167,7 @@ width: 100%
     text-align: center;
   }
 }
-@media (min-width:900px) {
+@media (min-width:1025px) {
 #content
 {
     width: 900px;
